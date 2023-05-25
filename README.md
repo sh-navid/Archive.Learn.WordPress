@@ -1,4 +1,7 @@
 # Learn-WordPress
+## [Hook](https://developer.wordpress.org/reference/hooks/)
+- [Action](https://developer.wordpress.org/plugins/hooks/)
+- [Filter](https://developer.wordpress.org/plugins/hooks/)
 ## Plugin
 - Make `my-plugin` folder in `wp-content/plugins`
 - Make a `index.php` file in `my-plugin` and fill these contents
@@ -14,7 +17,6 @@
         **/
 
         add_filter( 'preprocess_comment' , 'my_func' );
-
 
         function my_func( $commentdata ) {
             $commentdata['comment_content'] = strtoupper( $commentdata['comment_content'] );
@@ -34,9 +36,6 @@
         }
     ~~~
 - Then you can put `[myshortcode]` inside for example post content
-## [Hook](https://developer.wordpress.org/reference/hooks/)
-- [Action](https://developer.wordpress.org/plugins/hooks/)
-- [Filter](https://developer.wordpress.org/plugins/hooks/)
 ## Meta Data
 ## Custom Post Type
 ## Taxonomy
