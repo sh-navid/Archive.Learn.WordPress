@@ -18,3 +18,7 @@
 ## [Hook](https://developer.wordpress.org/reference/hooks/)
 - [Action](https://developer.wordpress.org/plugins/hooks/)
 - [Filter](https://developer.wordpress.org/plugins/hooks/)
+## Meta Data
+## Custom Post Type
+## Taxonomy
+## Cron
