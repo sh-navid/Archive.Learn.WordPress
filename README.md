@@ -12,6 +12,14 @@
     * Author: my-name
     * Author URI: https://www.my-site.com/
     **/
+
+    add_filter( 'preprocess_comment' , 'my_func' );
+
+
+    function my_func( $commentdata ) {
+        $commentdata['comment_content'] = strtoupper( $commentdata['comment_content'] );
+        return $commentdata;
+    }
     ~~~
 - Go to `Plugins` tab on wordpress and activate this plugin
 ## Short Code
