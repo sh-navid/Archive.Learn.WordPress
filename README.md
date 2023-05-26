@@ -55,7 +55,7 @@
 
 ____
 ## Plugin example
-**Disclamer**: this is a bad practice and its not secure; its just for testing
+**Disclaimer**: this is a bad practice and its not secure; its just for testing
 - `index.php`
 ~~~ php
 <?php
