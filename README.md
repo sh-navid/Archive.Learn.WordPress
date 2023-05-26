@@ -52,8 +52,6 @@
 ## Custom Post Type
 ## Taxonomy
 ## Cron
-
-____
 ## Plugin example
 **Disclaimer**: this is a bad practice and its not secure; its just for testing
 - `index.php`
